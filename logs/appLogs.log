@@ -1,0 +1,91 @@
+2024-03-29 09:47:07,807 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 09:55:43,254 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.openschooltask3.OpenSchoolTask3ApplicationTests]: OpenSchoolTask3ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-29 09:55:43,388 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.openschooltask3.OpenSchoolTask3Application for test class com.example.openschooltask3.OpenSchoolTask3ApplicationTests
+2024-03-29 09:55:43,722 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-03-29 09:55:43,740 INFO c.e.o.OpenSchoolTask3ApplicationTests [main] Starting OpenSchoolTask3ApplicationTests using Java 17.0.4.1 with PID 31572 (started by yo114 in E:\java_projects\OpenSchoolTask3)
+2024-03-29 09:55:43,743 INFO c.e.o.OpenSchoolTask3ApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-29 09:55:44,593 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-29 09:55:44,642 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2024-03-29 09:55:45,184 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-29 09:55:45,239 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-29 09:55:45,268 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-29 09:55:45,509 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-29 09:55:46,589 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-29 09:55:46,655 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 09:55:47,319 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-29 09:55:47,800 INFO c.e.o.OpenSchoolTask3ApplicationTests [main] Started OpenSchoolTask3ApplicationTests in 4.303 seconds (process running for 5.617)
+2024-03-29 09:55:48,248 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.openschooltask3.service.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-29 09:55:48,270 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.openschooltask3.OpenSchoolTask3Application for test class com.example.openschooltask3.service.UserServiceIntegrationTest
+2024-03-29 09:55:51,062 INFO c.e.o.s.UserServiceIntegrationTest [main] Starting UserServiceIntegrationTest using Java 17.0.4.1 with PID 31572 (started by yo114 in E:\java_projects\OpenSchoolTask3)
+2024-03-29 09:55:51,062 INFO c.e.o.s.UserServiceIntegrationTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-29 09:55:51,209 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-29 09:55:51,216 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2024-03-29 09:55:51,407 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 0 (http)
+2024-03-29 09:55:51,418 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-03-29 09:55:51,420 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-03-29 09:55:51,420 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-29 09:55:51,491 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-03-29 09:55:51,492 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 427 ms
+2024-03-29 09:55:51,575 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-29 09:55:51,577 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-29 09:55:51,582 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-29 09:55:51,651 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-29 09:55:51,678 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 09:55:51,860 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-29 09:55:52,049 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring TestDispatcherServlet ''
+2024-03-29 09:55:52,050 INFO o.s.t.w.s.TestDispatcherServlet [main] Initializing Servlet ''
+2024-03-29 09:55:52,051 INFO o.s.t.w.s.TestDispatcherServlet [main] Completed initialization in 0 ms
+2024-03-29 09:55:52,082 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2024-03-29 09:55:52,100 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 62768 (http) with context path ''
+2024-03-29 09:55:52,104 INFO c.e.o.s.UserServiceIntegrationTest [main] Started UserServiceIntegrationTest in 1.063 seconds (process running for 9.921)
+2024-03-29 09:55:52,225 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод create, сервиса UserServiceImpl c аргументами [UserDTO(name=testName, email=testEmail)]
+2024-03-29 09:55:52,230 INFO c.e.o.a.UserAdviceAspect [main] Метод create сервиса UserServiceImpl вернул User{id=6, name='testName', email='testEmail'}
+2024-03-29 09:55:52,233 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод create, сервиса UserServiceImpl c аргументами [UserDTO(name=testName2, email=testEmail2)]
+2024-03-29 09:55:52,237 INFO c.e.o.a.UserAdviceAspect [main] Метод create сервиса UserServiceImpl вернул User{id=7, name='testName2', email='testEmail2'}
+2024-03-29 09:55:52,237 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод create, сервиса UserServiceImpl c аргументами [UserDTO(name=testName3, email=testEmail3)]
+2024-03-29 09:55:52,240 INFO c.e.o.a.UserAdviceAspect [main] Метод create сервиса UserServiceImpl вернул User{id=8, name='testName3', email='testEmail3'}
+2024-03-29 09:55:52,248 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод update, сервиса UserServiceImpl c аргументами [User{id=1, name='updatedName', email='updatedEmail'}]
+2024-03-29 09:55:52,308 INFO c.e.o.a.UserAdviceAspect [main] Метод update сервиса UserServiceImpl вернул User{id=1, name='updatedName', email='updatedEmail'}
+2024-03-29 09:55:52,314 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод get, сервиса UserServiceImpl c аргументами [1]
+2024-03-29 09:55:52,327 INFO c.e.o.a.UserAdviceAspect [main] Метод get сервиса UserServiceImpl вернул Optional[User{id=1, name='updatedName', email='updatedEmail'}]
+2024-03-29 09:55:52,359 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод getAll, сервиса UserServiceImpl c аргументами []
+2024-03-29 09:55:52,434 INFO c.e.o.a.UserAdviceAspect [main] Метод getAll сервиса UserServiceImpl вернул [User{id=2, name='user2', email='email2'}, User{id=3, name='user3', email='email3'}, User{id=4, name='user4', email='email4'}, User{id=5, name='user5', email='email5'}, User{id=6, name='testName', email='testEmail'}, User{id=7, name='testName2', email='testEmail2'}, User{id=8, name='testName3', email='testEmail3'}, User{id=1, name='updatedName', email='updatedEmail'}]
+2024-03-29 09:55:52,440 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод delete, сервиса UserServiceImpl c аргументами [1]
+2024-03-29 09:55:52,453 INFO c.e.o.a.UserAdviceAspect [main] Метод delete сервиса UserServiceImpl вернул null
+2024-03-29 09:55:52,454 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод get, сервиса UserServiceImpl c аргументами [1]
+2024-03-29 09:55:52,456 INFO c.e.o.a.UserAdviceAspect [main] Метод get сервиса UserServiceImpl вернул Optional.empty
+2024-03-29 09:55:52,460 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод get, сервиса UserServiceImpl c аргументами [100]
+2024-03-29 09:55:52,463 INFO c.e.o.a.UserAdviceAspect [main] Метод get сервиса UserServiceImpl вернул Optional.empty
+2024-03-29 09:55:53,145 INFO o.a.c.c.C.[.[.[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-29 09:55:53,146 INFO o.s.w.s.DispatcherServlet [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-29 09:55:53,147 INFO o.s.w.s.DispatcherServlet [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2024-03-29 09:55:53,176 INFO c.e.o.a.UserAdviceAspect [http-nio-auto-1-exec-1] Поступил запрос в метод get, сервиса UserServiceImpl c аргументами [100]
+2024-03-29 09:55:53,180 INFO c.e.o.a.UserAdviceAspect [http-nio-auto-1-exec-1] Метод get сервиса UserServiceImpl вернул Optional.empty
+2024-03-29 09:55:53,181 ERROR c.e.o.a.ControllerAdviceAspect [http-nio-auto-1-exec-1] Метод get контроллера UserController выбросил предупреждение java.util.NoSuchElementException: No value present
+2024-03-29 09:55:53,253 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод create, сервиса OrderServiceImpl c аргументами [OrderDTO(description=orderTest, status=OPEN, userId=6)]
+2024-03-29 09:55:53,253 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод get, сервиса UserServiceImpl c аргументами [6]
+2024-03-29 09:55:53,255 INFO c.e.o.a.UserAdviceAspect [main] Метод get сервиса UserServiceImpl вернул Optional[User{id=6, name='testName', email='testEmail'}]
+2024-03-29 09:55:53,259 INFO c.e.o.a.UserAdviceAspect [main] Поступил запрос в метод update, сервиса UserServiceImpl c аргументами [User{id=6, name='testName', email='testEmail'}]
+2024-03-29 09:55:53,263 INFO c.e.o.a.UserAdviceAspect [main] Метод update сервиса UserServiceImpl вернул User{id=6, name='testName', email='testEmail'}
+2024-03-29 09:55:53,263 INFO c.e.o.a.OrderAdviceAspect [main] Метод create сервиса OrderServiceImpl вернул null
+2024-03-29 09:55:53,264 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод getAllByUser, сервиса OrderServiceImpl c аргументами [6]
+2024-03-29 09:55:53,285 INFO c.e.o.a.OrderAdviceAspect [main] Метод getAllByUser сервиса OrderServiceImpl вернул [com.example.openschooltask3.entity.Order@44ca5127]
+2024-03-29 09:55:53,292 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод getAll, сервиса OrderServiceImpl c аргументами []
+2024-03-29 09:55:53,300 INFO c.e.o.a.OrderAdviceAspect [main] Метод getAll сервиса OrderServiceImpl вернул [com.example.openschooltask3.entity.Order@76e579d8, com.example.openschooltask3.entity.Order@2ffb6cf6, com.example.openschooltask3.entity.Order@668d6dc7, com.example.openschooltask3.entity.Order@3871f21b, com.example.openschooltask3.entity.Order@65876774, com.example.openschooltask3.entity.Order@11ef3bee, com.example.openschooltask3.entity.Order@1c018f41, com.example.openschooltask3.entity.Order@2b5747f0, com.example.openschooltask3.entity.Order@75352929, com.example.openschooltask3.entity.Order@1c7f0dd6, com.example.openschooltask3.entity.Order@40df1311, com.example.openschooltask3.entity.Order@37248b2c, com.example.openschooltask3.entity.Order@f002a22, com.example.openschooltask3.entity.Order@6bf597a9, com.example.openschooltask3.entity.Order@538a465d]
+2024-03-29 09:55:53,304 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод getAllByUser, сервиса OrderServiceImpl c аргументами [2]
+2024-03-29 09:55:53,328 INFO c.e.o.a.OrderAdviceAspect [main] Метод getAllByUser сервиса OrderServiceImpl вернул [com.example.openschooltask3.entity.Order@5233b9e0, com.example.openschooltask3.entity.Order@4e32d885, com.example.openschooltask3.entity.Order@48841b10]
+2024-03-29 09:55:53,332 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод update, сервиса OrderServiceImpl c аргументами [6, OrderDTO(description=updateOrderTest, status=CLOSE, userId=2)]
+2024-03-29 09:55:53,337 INFO c.e.o.a.OrderAdviceAspect [main] Метод update сервиса OrderServiceImpl вернул null
+2024-03-29 09:55:53,338 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод get, сервиса OrderServiceImpl c аргументами [6]
+2024-03-29 09:55:53,342 INFO c.e.o.a.OrderAdviceAspect [main] Метод get сервиса OrderServiceImpl вернул Optional[com.example.openschooltask3.entity.Order@467686b2]
+2024-03-29 09:55:53,346 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод get, сервиса OrderServiceImpl c аргументами [6]
+2024-03-29 09:55:53,349 INFO c.e.o.a.OrderAdviceAspect [main] Метод get сервиса OrderServiceImpl вернул Optional[com.example.openschooltask3.entity.Order@10742c78]
+2024-03-29 09:55:53,353 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод delete, сервиса OrderServiceImpl c аргументами [6]
+2024-03-29 09:55:53,358 INFO c.e.o.a.OrderAdviceAspect [main] Метод delete сервиса OrderServiceImpl вернул null
+2024-03-29 09:55:53,359 INFO c.e.o.a.OrderAdviceAspect [main] Поступил запрос в метод get, сервиса OrderServiceImpl c аргументами [6]
+2024-03-29 09:55:53,362 INFO c.e.o.a.OrderAdviceAspect [main] Метод get сервиса OrderServiceImpl вернул Optional.empty
+2024-03-29 09:55:53,379 INFO c.e.o.a.OrderAdviceAspect [http-nio-auto-1-exec-3] Поступил запрос в метод get, сервиса OrderServiceImpl c аргументами [100]
+2024-03-29 09:55:53,382 INFO c.e.o.a.OrderAdviceAspect [http-nio-auto-1-exec-3] Метод get сервиса OrderServiceImpl вернул Optional.empty
+2024-03-29 09:55:53,382 ERROR c.e.o.a.ControllerAdviceAspect [http-nio-auto-1-exec-3] Метод get контроллера OrderController выбросил предупреждение java.util.NoSuchElementException: No value present
+2024-03-29 09:55:53,964 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 09:55:53,992 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
